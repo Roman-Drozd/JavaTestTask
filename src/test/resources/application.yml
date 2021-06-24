@@ -1,0 +1,11 @@
+test:
+  service:
+    host: https://taschool-notes-service.herokuapp.com
+
+auth:
+  client:
+    id: test
+  grant:
+    type: password
+  authorization: Basic dGVzdDpzZWNyZXQ=
+  scope: read write
